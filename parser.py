@@ -3,9 +3,8 @@ import requests
 
 # Проверенные источники, где точно есть VLESS-ссылки в открытом виде
 SOURCES = [
-    "https://t.me",
-    "https://t.me",
-    "https://githubusercontent.com" # Ссылка обновлена на README
+    "https://raw.githubusercontent.com/zieng2/wl/refs/heads/main/vless_universal.txt", 
+    "https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt"# Ссылка обновлена на README
 ]
 
 def fetch_configs():
